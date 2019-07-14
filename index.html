@@ -1,0 +1,52 @@
+<html>
+
+<head>
+	<title>WebGL Tutorial - Texture Mapping Example</title>
+	<script type="text/javascript" src="WebGLTextureExample.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div id="mainPage">
+		<H1 style="color: royalblue;"> WebGL - Texture Mapping </H1>
+		<h2 style="color:salmon;">When you selected decription button, you can see the canvas and description.</h2>
+		<p style="color:grey;">Description button 선택시 설명과 함께 canvas를 볼 수 있습니다.</p>
+		<br>
+		<canvas id="canvas" style="border: none; display: none;" width="500" height="500"></canvas>
+		<canvas id="CubeCanvas" style="border: none; display: none; " width="500" height="500"></canvas>
+		<br>
+		<h2> rotate object</h2>
+		<div>
+			<button onclick="AnimationRotate()" class="control_btn"> Animatation Rotate</button>
+			<button onclick="AnimationStop()" class="control_btn"> Animatation Stop</button>
+		</div>
+
+		<h2> Description</h2>
+		<div>
+			<button onclick="onClickBasic()" class="click_btn" id="basicbtn"> basic texture mapping</button>
+			<button onclick="onClickCubeTexture()" class="click_btn" id="cubebtn"> Texture mapping to Cube</button>
+		</div>
+		<div id="descriptionDiv">
+
+			<img id="basicimage" src="descriptionImage/basic.JPG">
+			<img id="cubeimg" src="descriptionImage/cubeimage.JPG">
+			<h3 id="descriptionENG" style="color:darkblue;"> </h3>
+
+
+			<p id="addDescriptionCode" style="color:palevioletred;"></p>
+			<p id="addcode1"></p>
+			<h3 id="descriptionCode1" style="color:palevioletred;"> </h3>
+			<p id="code1"></p>
+			<h3 id="descriptionCode2" style="color:palevioletred;"> </h3>
+			<p id="code2"></p>
+			<p id="descriptionKOR" style="color:grey;"> </p>
+		</div>
+		
+
+
+	</div>
+
+	<p style="color:cornflowerblue;"> (CC-NC-BY) 2019 SungHee Chae</p>
+</body>
+
+</html>
