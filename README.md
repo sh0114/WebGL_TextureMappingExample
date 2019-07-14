@@ -8,7 +8,7 @@
 
  - 3D 객체에 고양이 사진을 mapping한 간단한 예제 이다. <br>
     - 3D 객체는 다음과 같은 과정을 통해 만들어졌다. <br>
-        ![basic_ex](http://git.ajou.ac.kr/ChaeSungHee014/webgl_final_project/raw/master/descriptionImage/basic.JPG)
+        ![basic_ex](https://github.com/sh0114/WebGL_TextureMappingExample/blob/master/README_IMAGES/basic.JPG?raw=true)
         1. 삼각형 두개로 정사각형을 그린다. <br>
         2. 정사각형을 다시 여러개의 삼각형으로 쪼갠다. <br>
         예제에서는 총 16개의 삼각형을 이용하여 정사각형을 이용하였다. <br>
@@ -19,8 +19,8 @@
 
      - texture에서의 좌표값을통해 uv vector를 형성하고, 형성한 vector를 통해 texture를 mapping시킬수 있다. <br>
      
-     ![round_cat](http://git.ajou.ac.kr/ChaeSungHee014/webgl_final_project/raw/master/descriptionImage/round_cat.JPG)
-     ![round_cat](http://git.ajou.ac.kr/ChaeSungHee014/webgl_final_project/raw/master/descriptionImage/round_cat2.JPG)
+     ![round_cat](https://github.com/sh0114/WebGL_TextureMappingExample/blob/master/README_IMAGES/round_cat.JPG?raw=true)
+     ![round_cat](https://github.com/sh0114/WebGL_TextureMappingExample/blob/master/README_IMAGES/round_cat2.JPG?raw=true)
 
      - 또한, 완성한 3D객체를 보면 rotate하는 각도에 따라, 고양이의 표정이 변화하는 것을 볼 수있다. <br>
 
@@ -70,7 +70,7 @@
     - 정육면체의 각면에 서로다른 texture를 mapping하기 위해서 다음과 같은 방법을 사용한다. 
     - 예제에서는 3개의 이미지를 가지고 서로 다른 위치에 mapping 하였다. 
     
-    ![cube_ex](http://git.ajou.ac.kr/ChaeSungHee014/webgl_final_project/raw/master/descriptionImage/cubeimage.JPG)
+    ![cube_ex](https://github.com/sh0114/WebGL_TextureMappingExample/blob/master/README_IMAGES/cubeimage.JPG?raw=true)
 
     1. 정육면체를 그릴 각 면을 삼각형들로 정의한다. <br>
     2. 정육 면체의 각 면을 positive +x, negative -x, positive +y, negative -y, positive +z, negative -z로 나눈다. <br>
@@ -80,7 +80,7 @@
     - 이 때, 정육면체에 texture를 mapping 할 때, texture_cube_map을 이용하면, 편리하게 cube에 여러가지 texture들을 mapping 할 수 있다. <br>
     
     
-    ![3image](http://git.ajou.ac.kr/ChaeSungHee014/webgl_final_project/raw/master/descriptionImage/3image.JPG)
+    ![3image](https://github.com/sh0114/WebGL_TextureMappingExample/blob/master/README_IMAGES/3image.JPG?raw=true)
 
     - 완성된 cube를 보면, 회전하면서 각면에 고양이, 토끼, 강아지가 각각 다른 면에 위치해 있는 것을 볼 수 있다. <br><br>
     
